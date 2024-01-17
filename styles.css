@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+
+/* Add a visible border to each element to clearly distinguish their layout */
+*[data-ns-test] {
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+/* Demonstrate block elements by forcing a line break after each */
+[data-ns-test*="block"] {
+  display: block;
+}
